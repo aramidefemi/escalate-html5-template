@@ -58,7 +58,7 @@
 
  </style>
 </head>
-<body>
+<body style="background-color: #f5f5f5;">
     
  <div class="nav hoverable" style="background-color:orange;"> 
      <a style="margin-top: 20px;" href="index.html">
@@ -73,7 +73,7 @@
                     <ul class="nav navbar-top-links pull-right">
 
    <li>
-                            <a class="" href="#" >
+                            <a class="" href="inbox.html" >
                                 <span class="text-light">
                                 <i class="demo-pli-mail-unread">  Messages </i></span>
                             </a>
@@ -179,8 +179,12 @@
                       
                     </ul>
                 </div>
-<div class="mar-all pad-all col-md-3 hidden-sm hidden-xs">
- <div class="fixed-sm-200 fixed-lg-250 hoverable">
+
+
+               
+
+<div class="mar-all no-pad-hor pad-top col-md-offset-1 col-md-2 hidden-sm hidden-xs" >
+ <div class="hoverable">
 					        <div class="panel">
 					            <!-- Simple profile -->
 					            <div class="text-center pad-all bord-btm">
@@ -199,7 +203,7 @@
 					
 					                <!-- Profile Details -->
 					                <li class="list-group-item list-item-sm">
-					                    <i class="demo-pli-map-marker-2 icon-lg icon-fw"></i> San Jose, CA
+					                    <i class="demo-pli-map-marker icon-lg icon-fw"></i> San Jose, CA
 					                </li>
 					                <li class="list-group-item list-item-sm text-primary text-semibold">
 					                    <a href="#" class="btn-link text-semibold">
@@ -357,27 +361,69 @@
 					                    </div>
 					                </div>     
 </div>
+ <div class=" mar-top pad-top  pad-rgt  col-md-3 hidden-sm hidden-xs">
+					
+					        <!--Guege server load-->
+					        <!--===================================================-->
+					        <div class="panel hoverable">
+					            <div class="pad-all text-center">
+					
+					                <!--Gauge placeholder-->
+					                <canvas id="demo-gauge" height="120" class="canvas-responsive"></canvas>
+					                <p>
+					                    <span id="demo-gauge-text" class="text-lg text-semibold"></span>% Loaded
+					                </p>
+					            </div>
+					            <div class="pad-ver bg-trans-dark">
+					                <ul class="list-unstyled row text-center">
+					                    <li class="col-xs-3">
+					                        <p class="demo-pli-wallet-2 icon-2x"></p>
+					                        43
+					                    </li>
+					                    <!--Gauge info-->
+					                    <li class="col-xs-3">
+					                        <p class="demo-pli-gear icon-2x"></p>
+					                        125
+					                    </li>
+					                    <li class="col-xs-3">
+					                        <p class="demo-pli-mine icon-2x"></p>335
+					                    </li>
+					                     <li class="col-xs-3">
+					                        <p class="demo-pli-coin icon-2x"></p>
+					                        5K
+					                    </li>
+					                </ul>
+					            </div>
+					        </div>
+					        <!--===================================================-->
+					        <!--End Guege server load-->
+					
+					    </div>
 
 	  <!-- #footer -->
-    <footer  class="col-md-12 pad-all" style="background-color: rgba(0,0,0,0.9);">
+    <footer  class="col-md-12 pad-all" style="background-color: transparent;">
 
         <!-- .container -->
         <div class="container">
 
-            <!-- .row -->
-            <div class="row">
+       
+       
 
-                <div class="col-sm-4 widget">
+                <div class="col-md-offset-4 col-md-5 widget">
                     <!-- 1 -->
                   <a href="index.html">
-                        
-                        
-                            <strong style=" font-size:2em; color: orangered;">
-                            <strong>Es</strong><span style="color: orange;">calate</span><strong><i>!</i></strong>
-                            </strong>
-
-                         <a href="faq.html">Need Help?</a>
+                      Help?
                     </a>
+					  <a href="index.html">
+                     ·  Privacy
+                    </a>
+					  <a href="index.html">
+                      · Advertising
+                    </a>
+					  <a href="index.html">
+                     · Cookies
+                    </a>
+					
                    
                 </div>
 
@@ -386,8 +432,7 @@
 
             
 
-            </div>
-            <!-- .row end -->
+
 
         </div>
         <!-- .container end -->
