@@ -61,7 +61,7 @@
 <body style="background-color: #f5f5f5;">
     
  <div class="nav hoverable" style="background-color:orange;"> 
-     <a style="margin-top: 20px;" href="home.html">
+     <a style="margin-top: 20px;" href="index.html">
                           <strong style=" text-shadow: 0px 3px 6px grey; margin-top: 20px; margin-left:15px; font-size:1.3em; color: orangered;">
                             <strong>Es</strong><span style="color: white;">calate</span><strong><i>!</i></strong>
                             </strong>
@@ -80,6 +80,8 @@
                         </li>
                         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                         <!--End Navigation toogle button-->
+
+
 
 
                         <!--Notification dropdown-->
@@ -168,7 +170,7 @@
 
                                 <!-- Dropdown footer -->
                                 <div class="pad-all">
-                                    <a href="#" class="btn btn-primary">
+                                    <a href="pages-login.html" class="btn btn-primary">
                                         <i class="demo-pli-unlock"></i> Logout
                                     </a>
                                 </div>
@@ -184,59 +186,69 @@
 
                
 
-<div class="mar-all no-pad-hor pad-top col-md-offset-1 col-md-2 hidden-sm hidden-xs" >
- <div class="hoverable">
+ 
+    <!-- #header end -->
+<div class=" mar-all pad-all col-md-offset-2 col-md-6 col-sm-12 col-xs-12">
+
+
 					        <div class="panel">
-					            <!-- Simple profile -->
-					            <div class="text-center pad-all bord-btm">
-					                <div class="pad-ver">
-					                    <img src="images/avatar.jpg" class="img-lg img-border img-circle" alt="Profile Picture">
+					            <div class="panel-heading">
+					                <h3 class="panel-title">Profile Edit</h3>
+					            </div>
+					
+					
+					            <!-- DISABLED FORM ELEMENTS-->
+					            <!--===================================================-->
+					            <form class="panel-body form-horizontal form-padding">
+					
+					          
+					
+					                <!--Disabled Text Input-->
+					                <div class="form-group">
+					                    <label class="col-md-2 control-label">Fullname</label>
+					                    <div class="col-md-10">
+					                        <input type="text" class="form-control" placeholder="Enter Your Fullname" >
+					                        <small class="help-block">This is a help text</small>
+					                    </div>
 					                </div>
-					                <h4 class="text-lg text-overflow mar-no">Aramide Folio</h4>
-					                <p class="text-sm text-muted">Digital Marketing Director</p>
 					
-					           
-                               
-					         <!--   Follow btn      <button class="btn btn-block btn-warning">Follow</button>-->
-					            </div>
-					            <p class="text-semibold text-main pad-all mar-no">About Me</p>
-					            <ul class="list-group bg-trans text-sm">
-					
-					           
-                               
-					            </ul>
-					            <div class="pad-hor mar-btm">
-					                <small class="text-muted">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</small>
-					            </div>
+					                <!--Disabled Email Input-->
+					                <div class="form-group">
+					                    <label class="col-md-2 control-label">Email</label>
+					                    <div class="col-md-10">
+					                        <input type="email" class="form-control" placeholder="Enter your email" >
+					                        <small class="help-block">Please enter your email</small>
+					                    </div>
+					                </div>
 					
                     
-					        </div>
-					    </div>
-</div>
-    <!-- #header end -->
-<div class=" mar-all pad-all col-md-5 col-sm-12 col-xs-12">
-
-					            <div class="panel">
-					                <div class="panel-heading">
-					                    <h3 class="panel-title">Notifications</h3>
-					                </div>
-					                <div class="panel-body">
-					
-					                    <!--Striped Rows-->
-					                    <!--===================================================-->
-					                    <div class="list-group list-group-striped">
-					                        <a class="list-group-item" href="#">Cras justo odio</a>
-					                        <a class="list-group-item" href="#">Dapibus ac facilisis in</a>
-					                        <a class="list-group-item" href="#">Morbi leo risus</a>
-					                        <a class="list-group-item" href="#">Porta ac consectetur ac</a>
-					                        <a class="list-group-item" href="#">Vestibulum at eros</a>
-					                        <a class="list-group-item" href="#">Dapibus ac facilisis in</a>
-					                        <a class="list-group-item" href="#">Porta ac consectetur ac</a>
+					             
+                                 
+					                <!--Disabled Textarea-->
+					                <div class="form-group">
+					                    <label class="col-md-2 control-label">About You</label>
+					                    <div class="col-md-10">
+					                        <textarea rows="9" class="form-control" placeholder="Your content here.." ></textarea>
 					                    </div>
-					                    <!--===================================================-->
-					
 					                </div>
-					            </div>
+					
+					               
+                               
+					                <div class="form-group">
+					                    <label class="col-md-2 control-label">File input</label>
+					                    <div class="col-md-10">
+					                        <span class="pull-left btn btn-primary btn-file disabled">
+					                            Browse... <input type="file" >
+					                        </span>
+					                    </div>
+					                </div>
+					            </form>
+					            <!--===================================================-->
+					            <!-- END DISABLED FORM ELEMENTS -->
+					
+					        </div>
+					   
+                       
 					        
 					                   
                                            
@@ -255,7 +267,7 @@
 					                </p>
 					            </div>
 					            <div class="pad-ver bg-trans-dark">
-					                 <ul class="list-unstyled row text-center">
+					              <ul class="list-unstyled row text-center">
 					                    <li class="col-xs-3">
 					                        <a href="profile.html" class="demo-pli-male icon-2x"></a>
 					                    
@@ -290,7 +302,8 @@
        
 
                 <div class="col-md-offset-4 col-md-5 widget">
-                    <a href="faq.html">
+                    <!-- 1 -->
+               <a href="faq.html">
                       Help?
                     </a>
 					  <a href="faq.html">
@@ -303,6 +316,7 @@
                      · Cookies
                     </a>
 					
+                   
                 </div>
 
               
